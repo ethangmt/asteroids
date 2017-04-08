@@ -24,6 +24,9 @@
     <script>scripts\scr_bullet_init.gml</script>
     <script>scripts\scr_bullet_collisions.gml</script>
     <script>scripts\scr_title_screen_selection.gml</script>
+    <script>scripts\scr_controller_level.gml</script>
+    <script>scripts\scr_controller_init.gml</script>
+    <script>scripts\scr_controller_spawn.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -32,6 +35,9 @@
     <object>objects\obj_text</object>
     <object>objects\obj_controller</object>
     <object>objects\obj_selection</object>
+    <object>objects\obj_asteroid_big</object>
+    <object>objects\obj_asteroid_medium</object>
+    <object>objects\obj_asteroid_small</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\title_screen</room>
