@@ -8,6 +8,12 @@
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_bullet</sprite>
+    <sprite>sprites\spr_asteroid_big</sprite>
+    <sprite>sprites\spr_asteroid_medium</sprite>
+    <sprite>sprites\spr_asteroid_small</sprite>
+    <sprite>sprites\spr_title</sprite>
+    <sprite>sprites\spr_text</sprite>
+    <sprite>sprites\spr_selection</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -17,12 +23,18 @@
     <script>scripts\scr_player_shoot.gml</script>
     <script>scripts\scr_bullet_init.gml</script>
     <script>scripts\scr_bullet_collisions.gml</script>
+    <script>scripts\scr_title_screen_selection.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_bullet</object>
+    <object>objects\obj_title</object>
+    <object>objects\obj_text</object>
+    <object>objects\obj_controller</object>
+    <object>objects\obj_selection</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\title_screen</room>
     <room>rooms\main_room</room>
   </rooms>
   <help>
