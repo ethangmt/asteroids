@@ -18,15 +18,27 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_player_init.gml</script>
-    <script>scripts\scr_player_move.gml</script>
-    <script>scripts\scr_player_shoot.gml</script>
-    <script>scripts\scr_bullet_init.gml</script>
-    <script>scripts\scr_bullet_collisions.gml</script>
     <script>scripts\scr_title_screen_selection.gml</script>
-    <script>scripts\scr_controller_level.gml</script>
-    <script>scripts\scr_controller_init.gml</script>
-    <script>scripts\scr_controller_spawn.gml</script>
+    <scripts name="scr_asteroid">
+      <script>scripts\scr_asteroid_big_hit.gml</script>
+      <script>scripts\scr_asteroids_damage.gml</script>
+      <script>scripts\scr_asteroids_init.gml</script>
+      <script>scripts\scr_asteroids_damage_recover.gml</script>
+    </scripts>
+    <scripts name="scr_player">
+      <script>scripts\scr_player_move.gml</script>
+      <script>scripts\scr_player_shoot.gml</script>
+      <script>scripts\scr_player_init.gml</script>
+    </scripts>
+    <scripts name="scr_bullet">
+      <script>scripts\scr_bullet_init.gml</script>
+      <script>scripts\scr_bullet_collisions.gml</script>
+    </scripts>
+    <scripts name="scr_controller">
+      <script>scripts\scr_controller_spawn.gml</script>
+      <script>scripts\scr_controller_level.gml</script>
+      <script>scripts\scr_controller_init.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
