@@ -20,7 +20,10 @@ if (ba != noone)
 {
     if (ba.alarm[0] == -1)
     {
-        scr_asteroids_damage(ba)
-        instance_destroy()
+        //scr_asteroids_damage(ba)
+        ba.alarm[0] = ba.asteroid_hit
+        ba.image_blend = c_red
+        ba.live -= 1
     }
+    instance_destroy()
 }

@@ -35,7 +35,6 @@
       <script>scripts\scr_bullet_collisions.gml</script>
     </scripts>
     <scripts name="scr_controller">
-      <script>scripts\scr_controller_spawn.gml</script>
       <script>scripts\scr_controller_level.gml</script>
       <script>scripts\scr_controller_init.gml</script>
     </scripts>

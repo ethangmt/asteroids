@@ -1,3 +1,4 @@
+// put in scr_bullet_collisions
 obj = argument[0]
 obj.alarm[0] = obj.asteroid_hit
 obj.image_blend = c_red

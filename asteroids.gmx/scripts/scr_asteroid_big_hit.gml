@@ -1,6 +1,6 @@
-if (live <= 0) 
+if (live == 0) 
 {
-    instance_create(x + 10, y + 10, obj_asteroid_medium)
-    instance_create(x - 10, y - 10, obj_asteroid_medium)
     instance_destroy()
+    //instance_create(x + 50, y + 50, obj_asteroid_medium)
+    //instance_create(x - 50, y - 50, obj_asteroid_medium)
 }
