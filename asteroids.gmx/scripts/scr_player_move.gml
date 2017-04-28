@@ -1,17 +1,20 @@
-if (keyboard_check(ord("A"))) {
+if (keyboard_check(ord("A"))) 
+{
     image_angle += angmove
     direction += angmove
 }
 
-if (keyboard_check(ord("D"))) {
+if (keyboard_check(ord("D"))) 
+{
     image_angle -= angmove
     direction -= angmove
 }
 
-if (keyboard_check(ord("W"))) {
+if (keyboard_check(ord("W"))) 
+{
     speed += move
 }
-else if (speed - move >= 0) 
+else if (speed - move >= 0)
 {
     speed -= move
 }

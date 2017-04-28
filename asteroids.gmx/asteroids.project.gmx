@@ -20,15 +20,17 @@
   <scripts name="scripts">
     <script>scripts\scr_title_screen_selection.gml</script>
     <scripts name="scr_asteroid">
-      <script>scripts\scr_asteroid_big_hit.gml</script>
-      <script>scripts\scr_asteroids_damage.gml</script>
+      <script>scripts\scr_asteroid_big_destroy.gml</script>
       <script>scripts\scr_asteroids_init.gml</script>
-      <script>scripts\scr_asteroids_damage_recover.gml</script>
+      <script>scripts\scr_asteroid_medium_destroy.gml</script>
+      <script>scripts\scr_asteroid_small_destroy.gml</script>
+      <script>scripts\scr_asteroids_move.gml</script>
     </scripts>
     <scripts name="scr_player">
       <script>scripts\scr_player_move.gml</script>
       <script>scripts\scr_player_shoot.gml</script>
       <script>scripts\scr_player_init.gml</script>
+      <script>scripts\scr_player_collisions.gml</script>
     </scripts>
     <scripts name="scr_bullet">
       <script>scripts\scr_bullet_init.gml</script>
